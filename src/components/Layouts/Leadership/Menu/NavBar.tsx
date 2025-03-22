@@ -91,7 +91,7 @@ const NavBar = ({ collapsed, setCollapsed }: NavbarProps) => {
 
         <div className="flex items-center justify-center my-6">
           <img
-            src={collapsed ? '/icon/logo-small.png' : '/icon/logo-big.png'}
+            src={collapsed ? '/icon/logo-small.png' : '/images/auth/logo-big.png'}
             alt="logo"
             className={`transition-all duration-300 ${collapsed ? 'w-12' : 'w-20'} h-auto mt-6 mb-10`}
           />
