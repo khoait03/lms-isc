@@ -1,46 +1,57 @@
-# Getting Started with Create React App
+📚 LMS Elibrary
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🏆 Giới thiệu
 
-## Available Scripts
+LMS Elibrary là một hệ thống thư viện điện tử thuộc hệ thống Learning Management System (LMS), hỗ trợ việc lưu trữ và quản lý tài liệu giảng dạy, đề thi, bài giảng và thông báo dành cho Lãnh đạo, Giảng viên và Học viên.
 
-In the project directory, you can run:
+🏗️ Mô-đun chính
 
-### `npm start`
+Hệ thống bao gồm ba mô-đun chính phục vụ từng đối tượng sử dụng:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+🔹 1. Leadership (Lãnh đạo)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+📌 Quản lý tất cả tài liệu môn học và ngân hàng đề thi.
 
-### `npm test`
+✅ Phê duyệt tài liệu trước khi công khai cho học viên.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+📢 Quản lý thông báo và cài đặt hệ thống.
 
-### `npm run build`
+🔑 Cấu hình quyền truy cập cho người dùng.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🔹 2. Teacher (Giảng viên)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+📚 Quản lý môn giảng dạy và tài liệu giảng dạy.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+✏️ Tạo, chỉnh sửa và tải lên bài giảng, tài nguyên môn học.
 
-### `npm run eject`
+📝 Tạo và quản lý đề thi, bài kiểm tra.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+📬 Quản lý thông báo và tương tác với học viên.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🔹 3. Student (Học viên)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+📖 Theo dõi danh sách môn học đã đăng ký.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+📂 Xem và tải tài liệu môn học.
 
-## Learn More
+💬 Hỏi & đáp trong quá trình học tập.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🔔 Nhận thông báo từ hệ thống và gửi trợ giúp.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+⚡ Chức năng chính
+
+🔑 Đăng nhập / Đăng xuất: Người dùng đăng nhập vào hệ thống với tài khoản được cấp.
+
+📂 Quản lý tài liệu: Lãnh đạo và giảng viên có thể tải lên, chỉnh sửa và duyệt tài liệu.
+
+📝 Quản lý đề thi: Giảng viên có thể tạo đề thi, kiểm tra và quản lý ngân hàng đề thi.
+
+📢 Thông báo hệ thống: Người dùng nhận được thông báo về các hoạt động học tập.
+
+💡 Tương tác học viên: Học viên có thể đặt câu hỏi và nhận phản hồi từ giảng viên.
+
+🖥️ Yêu cầu hệ thống
+
+🌐 Máy chủ: Kết nối internet ổn định, hỗ trợ các trình duyệt như Chrome, Safari, Edge.
+
+🛠️ Công nghệ: Hệ thống có thể tích hợp với các nền tảng quản lý học tập LMS.
